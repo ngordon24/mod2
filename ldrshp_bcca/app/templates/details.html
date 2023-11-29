@@ -1,0 +1,28 @@
+{% extends "parent.html" %}
+{%block content%}
+
+    <center>
+        <b style="color: black; font-size:50px">
+            {{team.Tname}}
+        </b>
+    </center>
+    <center>
+        <h2 style="width: 400px;">
+            {{team.Tdesc}}
+    </center></h2>
+    <center><b style="color: black; font-size:50px">
+    </b> </center>
+    <center><div>
+        
+        <ul style=" font-size:30px;">
+            {% for i in team.Tmembers %}
+                {{i}}/
+            {% endfor %}
+            
+        </ul>
+        
+    </center></div>
+
+        
+    
+    {%endblock content%}

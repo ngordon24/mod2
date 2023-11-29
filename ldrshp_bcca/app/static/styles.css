@@ -1,0 +1,10 @@
+body {
+  background: rgb(43, 195, 226);
+  overflow: hidden;
+}
+
+.bibi {
+  border-style: groove;
+  border-color: black;
+  border-width: 50px;
+}

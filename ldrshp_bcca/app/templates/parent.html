@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static "style.css" %}">
+</head>
+
+<body>
+    <div class="bibi">
+    <center><nav style="color: tomato; font-size: 100px;background-color:black;width:100%; ">
+         
+
+
+    </nav></center>
+    <center><h2 style="color: tomato; font-size: 50px; ">
+        <a href="lists">Leadership Teams List</a>
+
+        
+
+    </center> </h2>
+
+
+   
+    <main>{% block content %}{% endblock content %}</main>
+</div>
+</body>
+</html>
