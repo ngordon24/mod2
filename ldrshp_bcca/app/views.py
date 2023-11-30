@@ -14,7 +14,7 @@ def home(
 
     return render(
         request,
-        "Home.html",
+        "home.html",
         context,
     )
 
