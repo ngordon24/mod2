@@ -20,6 +20,6 @@ from app.views import home, to_teams, parent
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("lists/", home),
+    path("", home),
     path("<str:team_num>", to_teams),
 ]
